@@ -13,5 +13,37 @@
 
 /* Add your CSS styles below this line */
 
-p
+p:hover::after {
+    content: "now $29";
+    margin-left: 4px;
+    color: red;
+}
+
+a {
+    background-color: coral;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+div.card::before {
+    content: "SALE";
+    font-size: 20px; 
+    border-radius: 20px;
+    background-color: red;
+    padding: 5px;
+    color: white;
+}
+
+a:hover {
+    color :coral;
+    background-color:  rgb(253, 228, 219);
+    border: 2px solid coral;
+}
+
+a:hover::after {
+    background-color: red;
+    color: white;
+}
+
 
