@@ -46,4 +46,10 @@ a:hover::after {
     color: white;
 }
 
+a:active {
+    background-color: red;
+    color: white;
+    border: red;
+}
+
 
